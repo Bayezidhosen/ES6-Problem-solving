@@ -4,6 +4,7 @@ let getPassingStudents = (students) => {
     return filteredStudents;
 };
 
+
 let students = [
     { name: "Alice", grade: 85 },
     { name: "Bob", grade: 55 },
@@ -13,6 +14,9 @@ let students = [
 ];
 
 getPassingStudents(students);
+
+
+
 
 
 
